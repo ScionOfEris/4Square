@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorULbutton">#ffffff00</color>
+    <color name="colorURbutton">#ff0000ff</color>
+    <color name="colorLLbutton">#ff00ff00</color>
+    <color name="colorLRbutton">#ffff0000</color>
+    <color name="colorULbuttonlow">#cccccc00</color>
+    <color name="colorURbuttonlow">#cc0000cc</color>
+    <color name="colorLLbuttonlow">#cc00cc00</color>
+    <color name="colorLRbuttonlow">#cccc0000</color>
+    <color name="colorULbuttonhigh">#ffffff00</color>
+    <color name="colorURbuttonhigh">#ff0000ff</color>
+    <color name="colorLLbuttonhigh">#ff00ff00</color>
+    <color name="colorLRbuttonhigh">#ffff0000</color>
+</resources>

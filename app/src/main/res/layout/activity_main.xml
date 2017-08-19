@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="6dp"
+    >
+
+    <View android:id="@+id/strut"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+    <Button
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@id/strut"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@id/strut"
+        android:text="UL" android:id="@+id/buttonUL"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorULbutton"
+        android:onClick="ClickUL"
+        ></Button>
+    <Button
+        android:layout_alignParentRight="true"
+        android:layout_alignLeft="@id/strut"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@id/strut"
+        android:text="UR" android:id="@+id/buttonUR"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorURbutton"
+        android:onClick="ClickUR"
+        ></Button>
+    <Button
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@id/strut"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@id/strut"
+        android:text="LL" android:id="@+id/buttonLL"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorLLbutton"
+        android:onClick="ClickLL"
+        ></Button>
+    <Button
+        android:layout_alignParentRight="true"
+        android:layout_alignLeft="@id/strut"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@id/strut"
+        android:text="LR" android:id="@+id/buttonLR"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorLRbutton"
+        android:onClick="ClickLR"
+        ></Button>
+
+
+</RelativeLayout>
